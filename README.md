@@ -14,4 +14,3 @@ The Web Engineering course focuses on the principles, techniques, and tools requ
 - Connecting Frontend to Backend
 - CRUD Operations using PHP & SQL
 - Web Standards, Forms, and Security Basics
-
