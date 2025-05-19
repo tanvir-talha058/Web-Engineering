@@ -2,19 +2,44 @@
 <html>
     <head>
         <title>start with html </title>
+        <link rel='stylesheet' href='style.css'>
     </head>
-    <body>
+    <body style="background-color: powderblue;">
         <h1> this is a h1 text</h1>
         <h2> this is a h2 text</h2>
         <h6>this is a h6 text</h6>
         <p> we can write anything in paragraph tag</p>
-        <h4>Bold Italic and Underline tag:</h4>
+        <h4>Bold, Italic, Underline, Mark and Emphasized tag:</h4>
         <b>This text is bold</b>
         <br>
         <i>this text is Italic</i>
         <br>
         <u>this text is Underline</u>
-        <h4>Link</h4>
+        <mark>This is marked text</mark> <br
+        <em>this is emphasized text</em>
+        
+        <p>My favorite movie is <del>Intersteller</del></p>
+
+        <! this is a comment>
+
+
+        <h4>Html horizontal rules</h4>
+        <p style="background-color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusantium molestias. Error dolore, sequi incidunt provident deserunt animi illum consequuntur ipsa ullam aliquid ipsam fuga, dolores repellendus, ratione inventore amet?</p>
+        <hr>
+        <p style="background-color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusantium molestias. Error dolore, sequi incidunt provident deserunt animi illum consequuntur ipsa ullam aliquid ipsam fuga, dolores repellendus, ratione inventore amet?</p>
+        <p style="font-family: monospace;">In this section the text style changed</p>
+
+        <h4 style="text-align: center;">Center Heading</h4>
+        <h4 style="text-align: right;">Right Heading</h4>
+        <h4 style="text-align: left;">Left Heading</h4>
+
+        <h4 style="border: 2px solid green;">Text border</h4>
+
+
+
+
+
+        <h4>Link:</h4>
         <a href="https://www.youtube.com/">this is youtube</a>
         <br>
         <h4>Image from link</h4>
@@ -44,5 +69,46 @@
    
          Oh, bring back my Bonnie to me.
      </pre>
+     <h4>Tables in html:</h4>
+     <table style="width: 100%;">
+        <caption>Basic Information table</caption>
+        <tr>
+            <th style="width: 10%;">No</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tanvir Ahmed</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Talha</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Shakib</td> 
+            <td>50</td>
+        </tr>
+     </table>
+
+     <h4> Table Colspan and Rowspan</h4>
+     <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Tanvir</td>
+            <td>Talha</td>
+            <td rowspan="2">23</td>
+        </tr>
+        <tr>
+            <td>Shakib</td>
+            <td>Shanto</td>
+        </tr>
+     </table>
     </body>
 </html>
