@@ -23,7 +23,3 @@ table,th,td{
     border-color: red;
     
 }
-th,td{
-    background-color: white;
-}
-tr:hover {background-color: #D6EEEE;}
