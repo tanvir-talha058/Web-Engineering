@@ -1,5 +1,3 @@
-# 🌐 Web Engineering Course Repository
-
 Welcome to my **Web Engineering** course repository! This repo contains all my coursework, assignments, mini-projects, and learning resources for the Web Engineering course, taken as part of my Computer Science studies.
 
 ## 📚 Course Overview
