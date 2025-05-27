@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html
+<head>
+    <title>form practice</title>
+    <body>
+        <form>
+            <lebel for="fname">First Name:</lebel>
+            <br>
+            <input type="text" id-="fname" name="first_name"  value="John">
+            <br>
+
+            <lebel for="lname">Last Name: </lebel>
+            <br>
+            <input type="text" id="lname"
+            name="last name"
+            value="Doe">
+            <br>
+        </form>
+        <p>Choose your favourite language</p>
+        <form>
+            <input type="radio" id="C" name="language" value="C">
+             <lebel for="C">C</lebel><br>
+            
+            <input type="radio" id="html" name="language" value="html">
+            <label for=""html>html</label><br>
+            
+            <input type="radio" id="java" name="language" value="java>
+            <label for="java">Java</label><br>
+            
+            <input type="radio" id="python" name="language" value="python">
+            <label for="python">Python</label><br>
+            
+            <input type="radio" id="dart" name="language" value="dart">
+            <label for="dart">Dart</label><br>
+        </form>
+        <p>Enter your gadget:</p>
+        <form>
+            <input type="checkbox" id="mobile"
+            name="gadget" value="mobile">
+            <label for =mobile> I have a mobile</label><br>
+            <input type="checkbox" id="laptop" name="gadget" value="laptop">
+            <label for=""laptop>I have  laptop</label>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+            <button>Reset</button>
+        </form>
+
+        <p>Drop down menu</p>
+        <form>
+            <label for ="cars">Choose a car:</label>
+            <select id="cars" name="car">
+                 <option value="volvo">Volvo</option>
+                <option value="saab">Toyota</option> 
+                <option value="mercedes" >Mercedes</option>
+                <option value="audi">Audi</option> 
+            </select>
+
+        </form>
+        <form>
+            <br>
+            <p>Enter your detail information:</p>
+            <textarea name="message" rows="10" cols="50"> write something...</textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+
+        <p>Enter any browser:</p>
+        <form>
+            <input list="browsers" name="Browser">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+                <option value="Opera">
+        </form>
+    </body>
+</head>
