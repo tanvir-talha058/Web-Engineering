@@ -1,3 +1,127 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 12px 32px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.harvard-logo {
+  height: 48px;
+}
+
+.harvard-title {
+  font-size: 1.7rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 8px;
+  line-height: 1;
+}
+
+.university {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.navbar-dot {
+  width: 10px;
+  height: 10px;
+  background: #d32f2f;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.navbar-announcement {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: stretch;
+}
+
+.navbar-box {
+  display: flex;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 0 24px;
+  font-size: 1.1rem;
+  border-left: 1px solid #222;
+  cursor: pointer;
+  min-width: 120px;
+  height: 56px;
+  gap: 10px;
+  transition: background 0.2s;
+}
+.navbar-box:hover {
+  background: #222;
+}
+
+.navbar-icon {
+  font-size: 1.5rem;
+}
+
+.hero {
+  background: url('harvard-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px 40px 20px;
+  background-blend-mode: darken;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero p {
+  font-size: 1.3rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 32px;
+}
+
+.content-section {
+  display: block;
+}
+
+ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+a {
+  color: #b80000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 body{
     background-color: powderblue;
     margin: 20px;
