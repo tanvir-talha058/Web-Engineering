@@ -4,9 +4,13 @@
     <title>form practice</title>
     <body>
         <form>
-            <lebel for="fname">First Name:</lebel>
+            <label for="fname">First Name:</label>
             <br>
             <input type="text" id-="fname" name="first_name"  value="John">
+            <br>
+            <label for ="lname">Last Name:</label>
+            <br>
+            <input type="text" id="lname" name="last_name" value="Doe">
             <br>
 
             <lebel for="lname">Last Name: </lebel>
@@ -49,13 +53,20 @@
         <p>Drop down menu</p>
         <form>
             <label for ="cars">Choose a car:</label>
-            <select id="cars" name="car">
-                 <option value="volvo">Volvo</option>
+                <select id="cars" name="car">
+                <option value="volvo">Volvo</option>
                 <option value="saab">Toyota</option> 
                 <option value="mercedes" >Mercedes</option>
                 <option value="audi">Audi</option> 
-            </select>
+                <option value="bmw">BMW</option>
+                </select>
 
+        </form>
+        <form>
+            <p>checkbox:</p>
+            <input type="checkbox" id="apple">
+            <label for="apple">Apple</label>
+            
         </form>
         <form>
             <br>
@@ -74,6 +85,11 @@
                 <option value="Safari">
                 <option value="Edge">
                 <option value="Opera">
+        </form>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="John Doe" required>
         </form>
     </body>
 </head>
