@@ -1,36 +1,28 @@
-🌐 Web Engineering
-Welcome to the Web Engineering repository!
-This repository contains all my lab tasks, practice exercises, and lab reports related to the Web Engineering course. It serves as a personal learning archive and a resource for others exploring web development fundamentals.
+# 🌐 Web Engineering
 
-📚 Contents
-✅ Lab Tasks – Hands-on assignments based on course objectives
+Welcome to the **Web Engineering** repository!  
+This repository contains all of my lab tasks, practice exercises, and lab reports for the **Web Engineering** course.
 
-🧪 Practice Files – Code snippets and mini-projects for better understanding
+## 📚 Contents
 
-📄 Lab Reports – Documentation of each lab with explanations and screenshots (where applicable)
+- ✅ **Lab Tasks** – Course-based hands-on assignments  
+- 🧪 **Practice Files** – Self-practice code and mini-projects  
+- 📄 **Lab Reports** – Well-documented lab reports including explanations and outputs
 
-🛠️ Technologies Used
-HTML5
+## 🛠️ Technologies Used
 
-CSS3
+- HTML5  
+- CSS3  
+- JavaScript  
+- Bootstrap 
+- PHP & MySQL *(if applicable in later labs)*
 
-JavaScript (vanilla)
+## 🚀 Purpose
 
-Bootstrap (if applicable)
+This repository is created for:
 
-PHP / MySQL (if used in later labs)
+- Maintaining a structured record of my Web Engineering coursework  
+- Enhancing my web development skills through regular practice  
+- Helping peers and others who are learning similar topics
 
-🚀 Purpose
-This repo is intended for:
-
-Keeping track of my progress throughout the Web Engineering course
-
-Helping peers understand concepts through my code and documentation
-
-Improving my web development skills through regular practice
-
-
-📌 Note
-This repository is part of my coursework and is updated regularly.
-Feel free to fork, explore, and suggest improvements!
 
