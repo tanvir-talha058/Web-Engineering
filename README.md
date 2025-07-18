@@ -1,46 +1,36 @@
-# 🧑‍💻 Tanvir Ahmed – Harvard-Style Personal Portfolio Website
+🌐 Web Engineering
+Welcome to the Web Engineering repository!
+This repository contains all my lab tasks, practice exercises, and lab reports related to the Web Engineering course. It serves as a personal learning archive and a resource for others exploring web development fundamentals.
 
-A personal portfolio website designed in the layout style of [Harvard University](https://www.harvard.edu). Built with pure HTML and CSS, this project showcases my background, skills, and tools I’ve developed as a Computer Science graduate and machine learning enthusiast from Bangladesh.
+📚 Contents
+✅ Lab Tasks – Hands-on assignments based on course objectives
 
----
+🧪 Practice Files – Code snippets and mini-projects for better understanding
 
-## 🔗 Live Demo
+📄 Lab Reports – Documentation of each lab with explanations and screenshots (where applicable)
 
-📍 [Visit Live Site](https://tanvir-talha058.github.io/harvard-style-portfolio) *(Update with your GitHub Pages link)*
+🛠️ Technologies Used
+HTML5
 
----
+CSS3
 
-## 📋 Features
+JavaScript (vanilla)
 
-- ✅ Harvard-style homepage layout  
-- ✅ Fixed header with logo, search, and menu  
-- ✅ Hero section with title & background image  
-- ✅ "About Me" section with personal bio and skills  
-- ✅ "My Portfolio" section featuring:
-  - 📄 Matrimonial Biodata PDF
-  - 🧮 Age Calculator Tool (HTML-based)
-  - 🌿 Plant Leaf Disease Dataset (Mendeley)
-- ✅ Responsive layout (mobile-friendly)
-- ✅ Dark theme aesthetic
-- ✅ GitHub profile link
+Bootstrap (if applicable)
+
+PHP / MySQL (if used in later labs)
+
+🚀 Purpose
+This repo is intended for:
+
+Keeping track of my progress throughout the Web Engineering course
+
+Helping peers understand concepts through my code and documentation
+
+Improving my web development skills through regular practice
 
 
-## 🧠 About Me
-
-I’m **Tanvir Ahmed**, a Computer Science graduate with a passion for:
-- Machine Learning & Deep Learning (CNNs, ResNet, MobileNetV2, etc.)
-- Mobile App Development with Flutter
-- Computer Vision Projects & Research
-- Data collection and publication (e.g., [Mendeley Dataset](https://data.mendeley.com/datasets/5g238dv4ht/1))
-
-🎯 I'm actively looking for internship/freelance opportunities in tech, ML, and app development.
-
----
-
-## 🚀 How to Use
-
-1. **Clone this repo**
-   ```bash
-   git clone https://github.com/tanvir-talha058/harvard-style-portfolio.git
-   cd harvard-style-portfolio
+📌 Note
+This repository is part of my coursework and is updated regularly.
+Feel free to fork, explore, and suggest improvements!
 
