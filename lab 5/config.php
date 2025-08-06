@@ -7,8 +7,8 @@ $username = 'root';
 $password = '';
 $database = 'biodata_system';
 
-// Create connection
-$conn = new mysqli($host, $username, $password, $database);
+// Create connection without specifying database first
+$conn = new mysqli($host, $username, $password);
 
 // Check connection
 if ($conn->connect_error) {
