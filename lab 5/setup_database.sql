@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create biodata table
+-- Create biodata
 CREATE TABLE IF NOT EXISTS biodata (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
